@@ -131,7 +131,6 @@ pip install -r requirements.txt
 ### 3. Deployment of the model under evaluation
 
 You need to deploy the model under evaluation so that it supports the **OpenAI-compatible API**. We recommend using [**vLLM**](https://github.com/vllm-project/vllm) or [**SGLang**](https://github.com/sgl-project/sglang).
-.
 
 ### 4. Inference and Evaluation
 
