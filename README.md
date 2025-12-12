@@ -11,3 +11,7 @@ This folder contains the codes and models for our research papers on LongContext
 # Long-context Instruct-Tuning of Large Language Models
 
 - 🔥 [LongMagpie: A Self-synthesis Method for Generating Large-scale Long-context Instructions](https://arxiv.org/abs/2505.17134), accepted as **NeurIPS 2025** conference paper !
+
+# Long-context Evaluation of Large Language Models
+
+- 🔥 [LongBench-Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark]()!
