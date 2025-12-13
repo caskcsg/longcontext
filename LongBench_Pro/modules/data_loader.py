@@ -25,8 +25,8 @@ class DataLoader:
             try:
                 original_dataset: List[Dict[str, Any]] = json.load(open(dataset_path, 'r', encoding='utf-8'))
             except:
-                self.logger.info(f"Dataset file not found: {dataset_path}, loading from HuggingFace (caskcsg/LongBench_Pro)")
-                original_dataset: Dataset = load_dataset("caskcsg/LongBench_Pro", split='test')
+                self.logger.info(f"Dataset file not found: {dataset_path}, loading from HuggingFace (caskcsg/LongBench-Pro)")
+                original_dataset: Dataset = load_dataset("caskcsg/LongBench-Pro", split='test')
             bon_dataset: List[Dict[str, Any]] = []
             # repeat the dataset bon_num times, to get the best of bon_num results
             for i in range(bon_num):

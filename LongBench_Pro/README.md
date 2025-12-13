@@ -29,7 +29,7 @@ Understanding and reasoning long contexts constitute a core capability of modern
 
 ## <a id="dataset"></a>📚 Dataset
 
-LongBench Pro is available in the [HF Dataset](), and the specific data details can be found in the [Arxiv paper]().
+LongBench Pro is available in the [HF Dataset](https://huggingface.co/datasets/caskcsg/LongBench-Pro), and the specific data details can be found in the [Arxiv paper]().
 
 <div align="center">
   <img src="images/bench_comparison.png" width="100%"/>
@@ -47,12 +47,12 @@ All models are run **three times** using their **default parameters (with the te
 
 **We derive the following key insights (refer to our paper for a more detailed analysis):**
 
-- **Training optimization outperforms mere size scaling.**
-- **The claimed context length is decoupled from the effective context length.**
-- **"Thinking" ability mitigates linguistic capability bias.**
-- **Extreme tasks reveal substantial capability gaps.**
-- **"Native thinking" serves as a key breakthrough.**
-- **Mixed-thinking models achieve Pareto optimality.**
+- *Training optimization outperforms mere size scaling.*
+- *The claimed context length is decoupled from the effective context length.*
+- *"Thinking" ability mitigates linguistic capability bias.*
+- *Extreme tasks reveal substantial capability gaps.*
+- *"Native thinking" serves as a key breakthrough.*
+- *Mixed-thinking models achieve Pareto optimality.*
 
 ## <a id="evaluation"></a>🚀 Evaluation
 
@@ -71,7 +71,7 @@ Run the following code to download the evaluation dataset:
 from huggingface_hub import snapshot_download
 
 snapshot_download(
-    "caskcsg/LongBench_Pro",
+    "caskcsg/LongBench-Pro",
     repo_type="dataset",
     local_dir="./dataset",
     local_dir_use_symlinks=False
