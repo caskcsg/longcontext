@@ -2,9 +2,9 @@
 
 # LongBench-Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark
 
-[![HF Dataset](https://img.shields.io/badge/HF-Dataset-yellow?logo=huggingface&logoColor=white)]()
-[![Github Code](https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white)]()
-[![Leaderboard](https://img.shields.io/badge/🏆-Leaderboard-red)]()
+[![HF Dataset](https://img.shields.io/badge/HF-Dataset-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/caskcsg/LongBench-Pro)
+[![Github Code](https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white)](https://github.com/caskcsg/longcontext/tree/main/LongBench_Pro)
+[![Leaderboard](https://img.shields.io/badge/🏆-Leaderboard-red)](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard)
 [![Paper](https://img.shields.io/badge/📄-Arxiv_Paper-green)]()
 
 <img src="images/performance.png" width="100%"/>
