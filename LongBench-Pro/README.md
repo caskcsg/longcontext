@@ -3,7 +3,7 @@
 # LongBench Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark
 
 [![HF Dataset](https://img.shields.io/badge/HF-Dataset-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/caskcsg/LongBench-Pro)
-[![Github Code](https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white)](https://github.com/caskcsg/longcontext/tree/main/LongBench_Pro)
+[![Github Code](https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white)](https://github.com/caskcsg/longcontext/tree/main/LongBench-Pro)
 [![Leaderboard](https://img.shields.io/badge/🏆-Leaderboard-red)](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard)
 [![Paper](https://img.shields.io/badge/📄-Arxiv_Paper-green)]()
 
@@ -62,7 +62,7 @@ Run the following command to download the evaluation code:
 
 ```bash
 git clone https://github.com/caskcsg/longcontext.git
-cd longcontext/LongBench_Pro
+cd longcontext/LongBench-Pro
 ```
 
 Run the following code to download the evaluation dataset:
@@ -101,6 +101,10 @@ LongBench_Pro
 │   ├── inference.py
 │   ├── model_manager.py
 │   └── utils.py
+├── output
+│   └── model_info.json
+├── app.py
+├── main.py
 ├── README.md
 └── requirements.txt
 ```
@@ -149,8 +153,13 @@ python main.py \
     --only_eval
 ```
 
-<!-- ## Visualization
--->
+## Visualization
+
+We also provide code to visualize the evaluation results you obtain on LongBench Pro. By simply running the code below, you can view the results at `http://localhost:7860`. This is consistent with the [LongBench Pro Leaderboard](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard).
+
+```
+python app.py
+```
 
 ## 🐞 Bugs or Questions?
 

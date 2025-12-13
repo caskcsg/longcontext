@@ -1,0 +1,164 @@
+{
+    "date": "2025-12-08",
+    "total_questions_num": 1500,
+    "inference_iterations": 3,
+    "total_samples_num": 4500,
+    "fail_samples_num": 0,
+    "inference_inconsistent_samples_num": 0,
+    "average_overall_metric": 0.5169762636111047,
+    "inference_iteration_1_overall_metric": 0.5181528065498966,
+    "inference_iteration_2_overall_metric": 0.5148683077997773,
+    "inference_iteration_3_overall_metric": 0.5179076764836414,
+    "average_token_length_metric": {
+        "8k": 0.5649502252093578,
+        "16k": 0.5347800008319371,
+        "32k": 0.5556420045489457,
+        "64k": 0.5214603320658495,
+        "128k": 0.4864319755387441,
+        "256k": 0.4385930434717982
+    },
+    "average_contextual_requirement_metric": {
+        "Full": 0.477916384525216,
+        "Partial": 0.566688836993147
+    },
+    "average_difficulty_metric": {
+        "Easy": 0.6526369307346341,
+        "Moderate": 0.4967551723461267,
+        "Hard": 0.48299903154456436,
+        "Extreme": 0.4039646133594433
+    },
+    "average_primary_task_metric": {
+        "T1. Retrieval & Ranking": 0.7877679677233363,
+        "T2. Sequencing & Structure Reconstruction": 0.7655772360963239,
+        "T3. Evidence-Grounded QA": 0.5416666666666666,
+        "T4. Summarization & Synthesis": 0.5446412810076181,
+        "T5. Attribution & Citation Alignment": 0.5358172435200781,
+        "T6. Aggregation & Clustering": 0.4889882988114357,
+        "T7. Consistency & Compliance Checking": 0.3557205172395749,
+        "T8. Structured & Numeric Reasoning": 0.24367283950617283,
+        "T9. Version & Code Diff Analysis": 0.6358733797519817,
+        "T10. Rule Induction & In-Context Learning": 0.6043981481481482,
+        "T11. Dialogue Memory & Long-Horizon Tracking": 0.4138888888888889
+    },
+    "average_language_metric": {
+        "Chinese": 0.5177833454262655,
+        "English": 0.5161691817959461
+    },
+    "BoN-1": {
+        "overall_metric": 0.5181528065498966,
+        "token_length": {
+            "8k": 0.5625899513794126,
+            "16k": 0.5301053854931655,
+            "32k": 0.5507157770563107,
+            "64k": 0.5301772699202785,
+            "128k": 0.4898481902149404,
+            "256k": 0.44548026523527584
+        },
+        "contextual_requirement": {
+            "Full": 0.4761374399130544,
+            "Partial": 0.571626909542243
+        },
+        "difficulty": {
+            "Easy": 0.6469710156877221,
+            "Moderate": 0.5054097919629513,
+            "Hard": 0.48366558283696526,
+            "Extreme": 0.4080599930595185
+        },
+        "primary_task": {
+            "T1. Retrieval & Ranking": 0.7857412502114394,
+            "T2. Sequencing & Structure Reconstruction": 0.7680012781036988,
+            "T3. Evidence-Grounded QA": 0.5416666666666666,
+            "T4. Summarization & Synthesis": 0.5417591122015827,
+            "T5. Attribution & Citation Alignment": 0.5399240477985636,
+            "T6. Aggregation & Clustering": 0.4939990937730982,
+            "T7. Consistency & Compliance Checking": 0.3541605841917901,
+            "T8. Structured & Numeric Reasoning": 0.24212962962962964,
+            "T9. Version & Code Diff Analysis": 0.6325782099444311,
+            "T10. Rule Induction & In-Context Learning": 0.6151388888888889,
+            "T11. Dialogue Memory & Long-Horizon Tracking": 0.4166666666666667
+        },
+        "language": {
+            "Chinese": 0.5160793653421631,
+            "English": 0.5202262477576317
+        }
+    },
+    "pass@1": 0.23666666666666666,
+    "BoN-2": {
+        "overall_metric": 0.5442270665213056,
+        "token_length": {
+            "8k": 0.594568981140541,
+            "16k": 0.5576674233487121,
+            "32k": 0.5818313481616337,
+            "64k": 0.5446955915354488,
+            "128k": 0.5245780781334816,
+            "256k": 0.4620209768080174
+        },
+        "contextual_requirement": {
+            "Full": 0.5071422110822568,
+            "Partial": 0.591425973443732
+        },
+        "difficulty": {
+            "Easy": 0.6783617155027842,
+            "Moderate": 0.5372286722751785,
+            "Hard": 0.5038179540985808,
+            "Extreme": 0.4284267679263639
+        },
+        "primary_task": {
+            "T1. Retrieval & Ranking": 0.8015300122926023,
+            "T2. Sequencing & Structure Reconstruction": 0.787322466174887,
+            "T3. Evidence-Grounded QA": 0.5666666666666667,
+            "T4. Summarization & Synthesis": 0.5591478963061529,
+            "T5. Attribution & Citation Alignment": 0.5635377708713467,
+            "T6. Aggregation & Clustering": 0.5151496972716835,
+            "T7. Consistency & Compliance Checking": 0.37875998396209754,
+            "T8. Structured & Numeric Reasoning": 0.29953703703703705,
+            "T9. Version & Code Diff Analysis": 0.6509912195762164,
+            "T10. Rule Induction & In-Context Learning": 0.6334722222222222,
+            "T11. Dialogue Memory & Long-Horizon Tracking": 0.45
+        },
+        "language": {
+            "Chinese": 0.5466945351249929,
+            "English": 0.5417595979176187
+        }
+    },
+    "pass@2": 0.26066666666666666,
+    "BoN-3": {
+        "overall_metric": 0.5555999285609496,
+        "token_length": {
+            "8k": 0.6111433308773455,
+            "16k": 0.5701468581090299,
+            "32k": 0.5948383611006594,
+            "64k": 0.5601715262733609,
+            "128k": 0.5307382241597844,
+            "256k": 0.4665612708455233
+        },
+        "contextual_requirement": {
+            "Full": 0.5192835049000674,
+            "Partial": 0.6018208314020757
+        },
+        "difficulty": {
+            "Easy": 0.6899946609782567,
+            "Moderate": 0.55112703775723,
+            "Hard": 0.5166174713215149,
+            "Extreme": 0.4369188707412474
+        },
+        "primary_task": {
+            "T1. Retrieval & Ranking": 0.8147581778505403,
+            "T2. Sequencing & Structure Reconstruction": 0.8027788153812361,
+            "T3. Evidence-Grounded QA": 0.5916666666666667,
+            "T4. Summarization & Synthesis": 0.5641241115145229,
+            "T5. Attribution & Citation Alignment": 0.5716268051520625,
+            "T6. Aggregation & Clustering": 0.5308177346459271,
+            "T7. Consistency & Compliance Checking": 0.3957991644610091,
+            "T8. Structured & Numeric Reasoning": 0.29953703703703705,
+            "T9. Version & Code Diff Analysis": 0.6606747373420039,
+            "T10. Rule Induction & In-Context Learning": 0.6418055555555555,
+            "T11. Dialogue Memory & Long-Horizon Tracking": 0.4583333333333333
+        },
+        "language": {
+            "Chinese": 0.5602606340750268,
+            "English": 0.550939223046875
+        }
+    },
+    "pass@3": 0.272
+}

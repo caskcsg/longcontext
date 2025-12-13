@@ -9,3 +9,6 @@ blobfile
 datasets
 openai
 accelerate
+pandas
+plotly==6.4.0
+gradio==5.49.1
