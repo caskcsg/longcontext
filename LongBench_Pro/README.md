@@ -1,6 +1,6 @@
 <div align="center">
 
-# LongBench-Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark
+# LongBench Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark
 
 [![HF Dataset](https://img.shields.io/badge/HF-Dataset-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/caskcsg/LongBench-Pro)
 [![Github Code](https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white)](https://github.com/caskcsg/longcontext/tree/main/LongBench_Pro)

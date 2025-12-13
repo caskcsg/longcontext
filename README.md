@@ -14,4 +14,4 @@ This folder contains the codes and models for our research papers on LongContext
 
 # Long-context Evaluation of Large Language Models
 
-- 🔥 [LongBench-Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark]()!
+- 🔥 [LongBench Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark]()!
