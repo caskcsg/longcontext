@@ -153,7 +153,7 @@ python main.py \
     --only_eval
 ```
 
-## Visualization
+## 📈 Visualization
 
 We also provide code to visualize the evaluation results you obtain on LongBench Pro. By simply running the code below, you can view the results at `http://localhost:7860`. This is consistent with the [LongBench Pro Leaderboard](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard).
 
