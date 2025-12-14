@@ -2,10 +2,10 @@
 
 # LongBench Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark
 
-[![HF Dataset](https://img.shields.io/badge/HF-Dataset-yellow?logo=huggingface&logoColor=white)](https://huggingface.co/datasets/caskcsg/LongBench-Pro)
-[![Github Code](https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white)](https://github.com/caskcsg/longcontext/tree/main/LongBench-Pro)
-[![Leaderboard](https://img.shields.io/badge/🏆-Leaderboard-red)](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard)
-[![Paper](https://img.shields.io/badge/📄-Arxiv_Paper-green)]()
+[![Dataset](https://img.shields.io/badge/Dataset-yellow?logo=huggingface&logoColor=yellow&labelColor=white)](https://huggingface.co/datasets/caskcsg/LongBench-Pro) &nbsp;&nbsp;
+[![Code](https://img.shields.io/badge/Code-181717?logo=github&logoColor=181717&labelColor=white)](https://github.com/caskcsg/longcontext/tree/main/LongBench-Pro) &nbsp;&nbsp;
+[![Paper](https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=B31B1B&labelColor=white)]() &nbsp;&nbsp;
+[![Leaderboard](https://img.shields.io/badge/🏆-Leaderboard-blue?labelColor=white)](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard)
 
 <img src="images/performance.png" width="100%"/>
 
