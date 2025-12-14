@@ -524,14 +524,17 @@ def create_length_heatmap(results, selected_models):
     standard_lengths = [8000, 16000, 32000, 64000, 128000, 256000]
     standard_length_keys = ['8k', '16k', '32k', '64k', '128k', '256k']
     
+    # Map results by name
+    result_map = {get_display_name_for_result(r): r for r in results}
+    
     # Prepare heatmap data
     heatmap_data = []
     model_names = []
     
-    for result in results:
-        display_name = get_display_name_for_result(result)
-        if display_name in selected_models:
-            model_names.append(display_name)
+    for model_name in selected_models:
+        if model_name in result_map:
+            model_names.append(model_name)
+            result = result_map[model_name]
             
             # Get data from token_length_metrics
             token_length_metrics = result.get('token_length_metrics', {})
@@ -596,7 +599,11 @@ def create_bon_chart(results, selected_models):
     # Create chart
     fig = go.Figure()
     
-    for model_name, data in model_data.items():
+    for model_name in selected_models:
+        if model_name not in model_data:
+            continue
+            
+        data = model_data[model_name]
         if not data:
             continue
         
@@ -681,7 +688,11 @@ def create_pass_k_chart(results, selected_models):
     # Create chart
     fig = go.Figure()
     
-    for model_name, data in model_data.items():
+    for model_name in selected_models:
+        if model_name not in model_data:
+            continue
+            
+        data = model_data[model_name]
         if not data:
             continue
         
@@ -779,7 +790,7 @@ def create_gradio_interface(parser: ResultParser):
         gr.HTML("""
         <div style="text-align: center; display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
             <a href="https://huggingface.co/datasets/caskcsg/LongBench-Pro" target="_blank"><img src="https://img.shields.io/badge/HF-Dataset-yellow?logo=huggingface&logoColor=white" alt="HF Dataset"></a>
-            <a href="https://github.com/caskcsg/longcontext/tree/main/LongBench_Pro" target="_blank"><img src="https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white" alt="Github Code"></a>
+            <a href="https://github.com/caskcsg/longcontext/tree/main/LongBench-Pro" target="_blank"><img src="https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white" alt="Github Code"></a>
             <a href="https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard" target="_blank"><img src="https://img.shields.io/badge/🏆-Leaderboard-red" alt="Leaderboard"></a>
             <a href="#" target="_blank"><img src="https://img.shields.io/badge/📄-Arxiv_Paper-green" alt="Paper"></a>
         </div>
