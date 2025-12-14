@@ -789,10 +789,10 @@ def create_gradio_interface(parser: ResultParser):
 
         gr.HTML("""
         <div style="text-align: center; display: flex; justify-content: center; gap: 10px; margin-bottom: 20px;">
-            <a href="https://huggingface.co/datasets/caskcsg/LongBench-Pro" target="_blank"><img src="https://img.shields.io/badge/HF-Dataset-yellow?logo=huggingface&logoColor=white" alt="HF Dataset"></a>
-            <a href="https://github.com/caskcsg/longcontext/tree/main/LongBench-Pro" target="_blank"><img src="https://img.shields.io/badge/Github-Code-blue?logo=github&logoColor=white" alt="Github Code"></a>
-            <a href="https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard" target="_blank"><img src="https://img.shields.io/badge/🏆-Leaderboard-red" alt="Leaderboard"></a>
-            <a href="#" target="_blank"><img src="https://img.shields.io/badge/📄-Arxiv_Paper-green" alt="Paper"></a>
+            <a href="https://huggingface.co/datasets/caskcsg/LongBench-Pro" target="_blank"><img src="https://img.shields.io/badge/Dataset-yellow?logo=huggingface&logoColor=yellow&labelColor=white" alt="Dataset"></a>
+            <a href="https://github.com/caskcsg/longcontext/tree/main/LongBench-Pro" target="_blank"><img src="https://img.shields.io/badge/Code-181717?logo=github&logoColor=181717&labelColor=white" alt="Code"></a>
+            <a href="#" target="_blank"><img src="https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=B31B1B&labelColor=white" alt="Paper"></a>
+            <a href="https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard" target="_blank"><img src="https://img.shields.io/badge/🏆-Leaderboard-blue?labelColor=white" alt="Leaderboard"></a>
         </div>
         """)
         
