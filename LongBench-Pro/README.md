@@ -158,12 +158,13 @@ python main.py \
 
 ## 📈 Visualization
 
-We also provide code to visualize the evaluation results you obtain on LongBench Pro. By simply running the code below, you can view the results at `http://localhost:7860`.
+We also provide code to visualize the evaluation results you obtain on LongBench Pro. By simply running the code below, you can view the results at `http://localhost:7860`. This is consistent with the [LongBench Pro Leaderboard](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard).
 
 ```
 python app.py
 ```
 
+<<<<<<< Updated upstream
 You will see content similar to the images below, which is consistent with the [LongBench Pro Leaderboard](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard).
 
 <div align="center">
@@ -171,6 +172,8 @@ You will see content similar to the images below, which is consistent with the [
   <img src="images/visualization2.png" width="45%"/>
 </div>
 
+=======
+>>>>>>> Stashed changes
 ## 🐞 Bugs or Questions?
 
 If you have any questions related to the code or the paper, feel free to email ZiYang (`chenziyang@iie.ac.cn`) and XingWu (`wuxing@iie.ac.cn`). If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
