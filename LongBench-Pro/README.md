@@ -7,7 +7,7 @@
 
 [![Dataset](https://img.shields.io/badge/Dataset-yellow?logo=huggingface&logoColor=yellow&labelColor=white)](https://huggingface.co/datasets/caskcsg/LongBench-Pro) &nbsp;&nbsp;
 [![Code](https://img.shields.io/badge/Code-181717?logo=github&logoColor=181717&labelColor=white)](https://github.com/caskcsg/longcontext/tree/main/LongBench-Pro) &nbsp;&nbsp;
-[![Paper](https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=B31B1B&labelColor=white)]() &nbsp;&nbsp;
+[![Paper](https://img.shields.io/badge/Paper-red?logo=arxiv&logoColor=B31B1B&labelColor=white)](https://arxiv.org/abs/2601.02872) &nbsp;&nbsp;
 [![Leaderboard](https://img.shields.io/badge/🏆-Leaderboard-blue?labelColor=white)](https://huggingface.co/spaces/caskcsg/LongBench-Pro-Leaderboard)
 
 <img src="images/performance.png" width="100%"/>
@@ -32,7 +32,7 @@ Understanding and reasoning long contexts constitute a core capability of modern
 
 ## <a id="dataset"></a>📚 Dataset
 
-LongBench Pro is available in the [HF Dataset](https://huggingface.co/datasets/caskcsg/LongBench-Pro), and the specific data details can be found in the [Arxiv paper]().
+LongBench Pro is available in the [HF Dataset](https://huggingface.co/datasets/caskcsg/LongBench-Pro), and the specific data details can be found in the [Arxiv Paper](https://arxiv.org/abs/2601.02872).
 
 <div align="center">
   <img src="images/bench_comparison.png" width="100%"/>
@@ -179,4 +179,14 @@ If you have any questions related to the code or the paper, feel free to email Z
 
 Please cite our paper if you use LongBench-Pro in your work:
 
-*Coming Soon...*
+```
+@misc{chen2026longbenchprorealisticcomprehensive,
+      title={LongBench Pro: A More Realistic and Comprehensive Bilingual Long-Context Evaluation Benchmark}, 
+      author={Ziyang Chen and Xing Wu and Junlong Jia and Chaochen Gao and Qi Fu and Debing Zhang and Songlin Hu},
+      year={2026},
+      eprint={2601.02872},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2601.02872}, 
+}
+```
